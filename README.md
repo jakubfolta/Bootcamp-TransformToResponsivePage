@@ -1,5 +1,5 @@
-# Responsive Webpage
-> Webpage with RWD - adjust size and location of elements according to screen resolution.
+# Transform To Responsive Webpage
+> Adjust present webpage to one which is responsive.
 
 ## Check Here ==> https://jakubfolta.github.io/ResponsivePage/
 
@@ -9,8 +9,11 @@
 ## Status
 Project is finished.<br>
 
-## Finished Project
-![Finished](./images/responsive_webpage.jpg)
+## Full Screen
+![Full Screen](./images/desktop_webpage.jpg)
+
+## Responsive Webpage
+![Responsive](./images/responsive_webpage.jpg)
 
 ## Sources
 This project was created while going through WebDeveloper Kodilla Bootcamp. 
