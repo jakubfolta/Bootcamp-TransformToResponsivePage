@@ -424,7 +424,6 @@
 
 .social_icons {
     margin-top: 20px;
-    position: absolute;
 }
 
 i.social {
@@ -472,7 +471,7 @@ i.social {
     }
 
     .slogan {
-        font-size: 0.5em;
+        font-size: .5em;
         width: 300px;
         float: right;
         background-color: rgba(0, 0, 0, .7);
@@ -510,20 +509,47 @@ i.social {
     }
 
     .about,
-    .touch {
+    .touch,
+    .social_media {
         padding: 10px;
     }
 
     .heading_3 {
         text-align: center;
+
     }
 
     .foot_paragraph {
         margin: 0 0 5px 30px;
     }
 
+    .foot_paragraph,
+    .paragraph,
+    .heading_3,
+    .heading_2,
+    .heading_5,
+    .heading_3,
+    .main_heading,
+    .heading_4,
+    .number_info {
+        font-size: .8em;
+    }
+
     .way {
         margin: 0 5px 5px 0;
     }
 
+    .heading_3::after {
+        content: "";
+        display: inline-block;
+        height: 0px;
+        width: 0px;
+        border-top: 3px solid #a4b7bd;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    .social_icons {
+        text-align: center;
+    }
 }
