@@ -514,9 +514,12 @@ i.social {
         padding: 10px;
     }
 
+    .side {
+        padding-right: 20%;
+    }
+
     .heading_3 {
         text-align: center;
-
     }
 
     .foot_paragraph {
@@ -531,7 +534,8 @@ i.social {
     .heading_3,
     .main_heading,
     .heading_4,
-    .number_info {
+    .number_info,
+    .menu_link {
         font-size: .8em;
     }
 
