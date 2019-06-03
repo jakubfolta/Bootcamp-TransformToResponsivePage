@@ -42,40 +42,6 @@
     color: #47494c;
 }
 
-@media (max-width: 768px) {
-    .menu {
-        float: none;
-    }
-
-    .menu_item {
-        display: block;
-        margin: 0;
-    }
-
-    .menu_link {
-        padding: 5px 0;
-        margin: 0;
-    }
-
-    .jumbotron {
-        height: calc(100vh - 149px)
-    }
-
-    .container {
-        text-align: center;
-    }
-
-    .slogan {
-        max-width: 100px;
-        width: 100px;
-        float: right;
-        background-color: rgba(0, 0, 0, 1);
-        margin-left: 500px;
-        margin-top: 200px;
-        padding: 5px 30px;
-    }
-}
-
 .container {
     width: 100%;
     max-width: 1920px;
@@ -269,7 +235,6 @@
     margin-left: 0;
 }
 
-
 .heading_2 {
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
@@ -286,13 +251,6 @@
     clear: both;
     content: "";
     display: table;
-}
-
-@media (max-width: 500px) {
-    .image {
-        float: none;
-        width: 100%;
-    }
 }
 
 .image {
@@ -338,7 +296,7 @@
     border-radius: 50%;
     height: 150px;
     width: 80%;
-    float: left;
+
 }
 
 .position_layer {
@@ -348,10 +306,9 @@
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 0;
+    left: 20px;
     right: 0;
     padding: 0;
-    text-align: center;
     opacity: 0;
 }
 
@@ -361,12 +318,14 @@
 }
 
 .name {
-    margin-top: 170px;
-    width: 80%;
+    margin-top: 10px;
+    width: 100%;
 }
 
 .title_image {
     width: 100%;
+    height: 300px;;
+    object-fit: cover;
     vertical-align: bottom;
 }
 
@@ -487,4 +446,68 @@ i.social {
     background-color: #1b1e1f;
     text-align: center;
     line-height: 50px;
+}
+
+@media (max-width: 767px) {
+    .container_logo {
+        padding-bottom: 0;
+    }
+
+    .menu {
+        float: none;
+    }
+
+    .menu_item {
+        display: block;
+        margin: 0;
+    }
+
+    .menu_link {
+        padding: 5px;
+        margin: 0;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .slogan {
+        font-size: 0.5em;
+        width: 300px;
+        float: right;
+        background-color: rgba(0, 0, 0, .7);
+        margin-left: 500px;
+        margin-top: 300px;
+        padding: 5px 30px;
+    }
+
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+
+    .col-s-offset-0 {margin-left: 0%}
+    .col-s-offset-1 {margin-left: 8.33%}
+
+    .layer {
+        opacity: 1;
+    }
+
+    .position_layer {
+        opacity: 1;
+    }
+
+    .job {
+        margin-top: 120px;
+    }
+
+
 }
