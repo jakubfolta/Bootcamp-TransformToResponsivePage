@@ -1,7 +1,7 @@
 # Transform To Responsive Webpage
 > Adjust present webpage to one which is responsive.
 
-## Check Here ==> https://jakubfolta.github.io/ResponsivePage/
+## Check Here ==> https://jakubfolta.github.io/TransformToResponsivePage/
 
 ## Technologies
 * HTML5, CSS3
