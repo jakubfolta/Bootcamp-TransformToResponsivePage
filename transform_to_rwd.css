@@ -411,15 +411,15 @@
     word-spacing: 3px;
 }
 
-.way {
-    font-weight: 900;
-    margin: 0 5px 5px 0;
-}
-
 .foot_paragraph {
     color: #fff;
     font-size: 12px;
     margin: 0 0 5px 0;
+}
+
+.way {
+    font-weight: 900;
+    margin: 0 5px 5px 0;
 }
 
 .social_icons {
@@ -509,5 +509,21 @@ i.social {
         margin-top: 120px;
     }
 
+    .about,
+    .touch {
+        padding: 10px;
+    }
+
+    .heading_3 {
+        text-align: center;
+    }
+
+    .foot_paragraph {
+        margin: 0 0 5px 30px;
+    }
+
+    .way {
+        margin: 0 5px 5px 0;
+    }
 
 }
