@@ -296,7 +296,7 @@
     border-radius: 50%;
     height: 150px;
     width: 80%;
-
+    object-fit: cover;
 }
 
 .position_layer {
@@ -471,12 +471,11 @@ i.social {
     }
 
     .slogan {
-        font-size: .5em;
-        width: 300px;
+        width: 200px;
         float: right;
         background-color: rgba(0, 0, 0, .7);
         margin-left: 500px;
-        margin-top: 300px;
+        margin-top: 350px;
         padding: 5px 30px;
     }
 
@@ -535,7 +534,8 @@ i.social {
     .main_heading,
     .heading_4,
     .number_info,
-    .menu_link {
+    .menu_link,
+    .slogan {
         font-size: .8em;
     }
 
