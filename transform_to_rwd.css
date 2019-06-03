@@ -33,7 +33,7 @@
 .menu_link {
     text-decoration: none;
     padding: 15px 20px;
-    display: block;
+    display: inline;
     color: #fff;
     text-transform: uppercase;
 }
@@ -552,7 +552,7 @@ i.social {
         margin-bottom: 0;
         margin-left: 0;
     }
-
+    
     .social_icons {
         text-align: center;
     }
