@@ -426,7 +426,7 @@
     margin-top: 20px;
 }
 
-i.social {
+.social {
     border-radius: 0;
     text-align: center;
     height: 30px;
@@ -552,8 +552,20 @@ i.social {
         margin-bottom: 0;
         margin-left: 0;
     }
-    
+
     .social_icons {
         text-align: center;
+    }
+}
+
+@media not all and (hover: none) {
+    .menu_link:hover {
+        color: #47494c;
+    }
+    .rel:hover .layer,
+    .rel:hover .position_layer {
+        opacity: 1;
+        background-color: rgba(0, 0, 0, .5);
+        transition: 1s ease;
     }
 }
